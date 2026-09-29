@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision happened" + collision.gameObject.name);
+        //Debug.Log("Collision happened" + collision.gameObject.name);
         if (collision.collider.CompareTag("TEST"))
         {
             Debug.Log("Collision TEST" + collision.gameObject.name);
